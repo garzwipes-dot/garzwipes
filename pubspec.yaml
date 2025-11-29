@@ -1,0 +1,51 @@
+name: garzwipes
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Versión más estable y probada
+  stream_chat_flutter: ^9.20.0
+  stream_chat: ^9.20.0
+  cupertino_icons: ^1.0.2
+  permission_handler: ^11.0.1
+  supabase_flutter: ^2.1.2
+  provider: ^6.1.1
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  http: ^1.1.0
+  file_picker: ^10.1.2
+  flutter_dotenv: ^5.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# ELIMINAR dependency_overrides completamente
+# dependency_overrides:
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700

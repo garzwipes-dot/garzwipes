@@ -1,0 +1,30 @@
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Build - ESTO ES LO MÁS IMPORTANTE
+build/
+.android/
+.ios/
+.gradle/
+
+# Android
+*.apk
+*.aab
+*.keystore
+
+# iOS
+*.ipa
+*.xcarchive
+
+# Archivos nativos grandes (los que te dieron error)
+**/*.so
+**/*.jar
+
+# Otros
+.DS_Store
+*.o
+*.out
